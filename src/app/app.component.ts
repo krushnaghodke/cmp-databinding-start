@@ -17,7 +17,6 @@ export class AppComponent {
       content: this.newServerContent
     });
   }
-
   onAddBlueprint() {
     this.serverElements.push({
       type: 'blueprint',
